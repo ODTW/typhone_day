@@ -43,7 +43,7 @@ def get_day_off_table():
 
         for res in results[city_status[0].text]:
             sub_region = city_status[0].text
-            
+
             # the status is for a sub region(s)
             if ':' in res:
                 sub_region, res = res.split(':')
