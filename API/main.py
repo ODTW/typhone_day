@@ -2,13 +2,17 @@ import httpx
 import json
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
-from rich import print
+# from rich import print
+import os
 
 url = "https://www.dgpa.gov.tw/typh/daily/nds.html"
 
 headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
 }
+
+curr_path = os.getcwd()
+root_dir = os.path.dirname(curr_path)
 
 
 def get_day_off_table():
@@ -50,6 +54,7 @@ def get_day_off_table():
 
             # Check the date of announcement
             res_date = today if res[:2] == '今天' else tomorrow
+            res_date = res_date.strftime("%Y-%m-%d")
 
             # mark as 1 if normal, and 0 if day_off is announced
             try:
@@ -81,9 +86,12 @@ def get_day_off_table():
 
 
 def save_to_dataset(results):
-    print(results)
+    date_now = datetime.now().strftime("%Y-%m-%d")
+    with open(os.path.join(root_dir, 'Data', date_now + ".json"), 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":
     results = get_day_off_table()
+    print(results)
     save_to_dataset(results)
