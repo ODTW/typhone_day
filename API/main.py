@@ -30,18 +30,28 @@ def get_day_off_table():
     for item in table_list:
         city_status = item.find_all('td')
 
+        # Get each Local Gov name and status
         if city_status[0].get('headers') and city_status[0].get('headers')[0] == 'city_Name':
             if city_status[1].get('headers') and city_status[1].get('headers')[0] == 'StopWorkSchool_Info':
                 results[city_status[0].text] = city_status[1].text.split('。')[:-1]
         else:
             continue
+
+        # Get status of 上班 + 上課
         results[city_status[0].text] = [res.strip() for res in results[city_status[0].text]]
         final_result = []
+
         for res in results[city_status[0].text]:
             sub_region = city_status[0].text
+            
+            # the status is for a sub region(s)
             if ':' in res:
                 sub_region, res = res.split(':')
+
+            # Check the date of announcement
             res_date = today if res[:2] == '今天' else tomorrow
+
+            # mark as 1 if normal, and 0 if day_off is announced
             try:
                 res_work, res_class = res[2:].split('、')
                 res_work = '1' if "照常" in res_work else '0'
@@ -57,6 +67,8 @@ def get_day_off_table():
                 else:
                     res_work = '1'
                     res_class = '1'
+
+            # if multiple regions in list
             if '、' in sub_region:
                 for region in sub_region.split('、'):
                     final_result.append([region, res_date, res_work, res_class])
