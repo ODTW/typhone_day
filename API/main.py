@@ -2,7 +2,7 @@ import httpx
 import json
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
-# from rich import print
+from rich import print
 import os
 
 url = "https://www.dgpa.gov.tw/typh/daily/nds.html"
@@ -93,5 +93,4 @@ def save_to_dataset(results):
 
 if __name__ == "__main__":
     results = get_day_off_table()
-    print(results)
     save_to_dataset(results)
