@@ -31,6 +31,10 @@ def get_day_off_table():
 
     table_list = s.find('tbody', class_="Table_Body").find_all('tr')
 
+    if len(table_list) == 2 and '無停班停課' in table_list[0].find('h2').text:
+        results['result'] = []
+        return results
+
     for item in table_list:
         city_status = item.find_all('td')
 
@@ -80,7 +84,7 @@ def get_day_off_table():
             else:
                 final_result.append([sub_region, res_date, res_work, res_class])
 
-        results[city_status[0].text] = final_result
+        results['result'][city_status[0].text] = final_result
 
     return results
 

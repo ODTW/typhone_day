@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+    xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1"
+    xmlns:georss="http://www.georss.org/georss">
+    <id>https://alerts.ncdr.nat.gov.tw/RSS.aspx</id>
+    <title>NCDR_CAP-即時防災資訊</title>
+    <updated>2024-10-04T09:19:00+08:00</updated>
+    <author>
+        <name>NCDR</name>
+    </author>
+    <rights>Public Domain</rights>
+    <link rel="self" href="https://alerts.ncdr.nat.gov.tw/RssAtomFeed.ashx?AlertType=33" />
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930112259_i_1001304_002</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:22:59+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930112259_i_1001304_002.cap" />
+        <summary type="html">[停班停課通知]屏東縣恆春鎮:今天下午1:30起停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930112501_i_1001323_003</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:25:01+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930112501_i_1001323_003.cap" />
+        <summary type="html">[停班停課通知]屏東縣車城鄉:今天下午1:30起停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930112702_i_1001324_004</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:27:02+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930112702_i_1001324_004.cap" />
+        <summary type="html">[停班停課通知]屏東縣滿州鄉:今天下午1:30起停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930112903_i_1001325_005</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:29:03+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930112903_i_1001325_005.cap" />
+        <summary type="html">[停班停課通知]屏東縣枋山鄉:今天下午1:30起停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930113105_i_1001304_006</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:31:05+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930113105_i_1001304_006.cap" />
+        <summary type="html">[停班停課通知]屏東縣恆春鎮:尚未宣布消息。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930113306_i_1001323_007</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:33:06+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930113306_i_1001323_007.cap" />
+        <summary type="html">[停班停課通知]屏東縣車城鄉:尚未宣布消息。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930113508_i_1001324_008</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:35:08+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930113508_i_1001324_008.cap" />
+        <summary type="html">[停班停課通知]屏東縣滿州鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930113710_i_1001325_009</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:37:10+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930113710_i_1001325_009.cap" />
+        <summary type="html">[停班停課通知]屏東縣枋山鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930113911_i_1001332_010</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:39:11+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930113911_i_1001332_010.cap" />
+        <summary type="html">[停班停課通知]屏東縣獅子鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930114112_i_1001333_011</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:41:12+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930114112_i_1001333_011.cap" />
+        <summary type="html">[停班停課通知]屏東縣牡丹鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930114515_i_1001304_012</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:45:15+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930114515_i_1001304_012.cap" />
+        <summary type="html">[停班停課通知]屏東縣恆春鎮:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930114716_i_1001323_013</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:47:16+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930114716_i_1001323_013.cap" />
+        <summary type="html">[停班停課通知]屏東縣車城鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930114917_i_1001324_014</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:49:17+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930114917_i_1001324_014.cap" />
+        <summary type="html">[停班停課通知]屏東縣滿州鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930115320_i_1001332_016</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:53:20+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930115320_i_1001332_016.cap" />
+        <summary type="html">[停班停課通知]屏東縣獅子鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930115118_i_1001325_015</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:51:18+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930115118_i_1001325_015.cap" />
+        <summary type="html">[停班停課通知]屏東縣枋山鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930115521_i_1001333_017</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T11:55:21+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930115521_i_1001333_017.cap" />
+        <summary type="html">[停班停課通知]屏東縣牡丹鄉:今天下午停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930150130_i_10015_018</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T15:01:30+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930150130_i_10015_018.cap" />
+        <summary type="html">[停班停課通知]花蓮縣:9/30晚上停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930161002_i_10013_019</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T16:10:02+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930161002_i_10013_019.cap" />
+        <summary type="html">[停班停課通知]屏東縣:9/30尚未宣布消息。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930161606_i_10014_020</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T16:16:06+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930161606_i_10014_020.cap" />
+        <summary type="html">[停班停課通知]臺東縣:9/30晚上6:00起停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930163615_i_10013_021</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T16:36:15+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930163615_i_10013_021.cap" />
+        <summary type="html">[停班停課通知]屏東縣:9/30晚上6:00起停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930182906_i_10013_022</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T18:29:06+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930182906_i_10013_022.cap" />
+        <summary type="html">[停班停課通知]屏東縣:10/1停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930185920_i_10014_023</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T18:59:20+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930185920_i_10014_023.cap" />
+        <summary type="html">[停班停課通知]臺東縣:10/1停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930201957_i_64_024</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T20:19:57+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930201957_i_64_024.cap" />
+        <summary type="html">[停班停課通知]高雄市:10/1停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930202359_i_67_025</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T20:23:59+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930202359_i_67_025.cap" />
+        <summary type="html">[停班停課通知]臺南市:10/1停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930210819_i_10010_026</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T21:08:19+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930210819_i_10010_026.cap" />
+        <summary type="html">[停班停課通知]嘉義縣:10/1停止上班、停止上課。行政院人事行政總處。如有任何問題請撥05-3620123#406。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20240930215439_i_10015_027</id>
+        <title>停班停課</title>
+        <updated>2024-09-30T21:54:39+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20240930215439_i_10015_027.cap" />
+        <summary type="html">[停班停課通知]花蓮縣:10/1停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001101903_i_10016_007</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T10:19:03+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001101903_i_10016_007.cap" />
+        <summary type="html">[停班停課通知]澎湖縣:10/1晚上停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001162140_i_09007_008</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T16:21:40+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001162140_i_09007_008.cap" />
+        <summary type="html">[停班停課通知]連江縣:10/1晚上6:00起停止上班、停止上課。行政院人事行政總處。如有任何問題請撥0836-22111。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001181228_i_10009_009</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T18:12:28+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001181228_i_10009_009.cap" />
+        <summary type="html">[停班停課通知]雲林縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001181429_i_67_010</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T18:14:29+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001181429_i_67_010.cap" />
+        <summary type="html">[停班停課通知]臺南市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001181630_i_64_011</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T18:16:30+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001181630_i_64_011.cap" />
+        <summary type="html">[停班停課通知]高雄市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001181831_i_10013_012</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T18:18:31+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001181831_i_10013_012.cap" />
+        <summary type="html">[停班停課通知]屏東縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001182033_i_10010_013</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T18:20:33+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001182033_i_10010_013.cap" />
+        <summary type="html">[停班停課通知]嘉義縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥05-3620123#406。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001182836_i_10020_014</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T18:28:36+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001182836_i_10020_014.cap" />
+        <summary type="html">[停班停課通知]嘉義市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥05-2254321#718、728。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001184042_i_10014_015</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T18:40:42+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001184042_i_10014_015.cap" />
+        <summary type="html">[停班停課通知]臺東縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001193103_i_09007_016</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T19:31:03+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001193103_i_09007_016.cap" />
+        <summary type="html">[停班停課通知]連江縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥0836-22111。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001193706_i_10016_017</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T19:37:06+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001193706_i_10016_017.cap" />
+        <summary type="html">[停班停課通知]澎湖縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001194309_i_09020_018</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T19:43:09+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001194309_i_09020_018.cap" />
+        <summary type="html">[停班停課通知]金門縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥082-318823#65130。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001194711_i_10015_019</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T19:47:11+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001194711_i_10015_019.cap" />
+        <summary type="html">[停班停課通知]花蓮縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001201322_i_66_020</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:13:22+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001201322_i_66_020.cap" />
+        <summary type="html">[停班停課通知]臺中市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001201524_i_10007_021</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:15:24+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001201524_i_10007_021.cap" />
+        <summary type="html">[停班停課通知]彰化縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥04-7531431。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001201725_i_10008_022</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:17:25+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001201725_i_10008_022.cap" />
+        <summary type="html">[停班停課通知]南投縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001202529_i_10017_023</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:25:29+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001202529_i_10017_023.cap" />
+        <summary type="html">[停班停課通知]基隆市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001202730_i_63_024</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:27:30+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001202730_i_63_024.cap" />
+        <summary type="html">[停班停課通知]臺北市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001202931_i_65_025</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:29:31+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001202931_i_65_025.cap" />
+        <summary type="html">[停班停課通知]新北市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001203132_i_10005_026</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:31:32+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001203132_i_10005_026.cap" />
+        <summary type="html">[停班停課通知]苗栗縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥037-559580。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001203333_i_68_027</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:33:33+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001203333_i_68_027.cap" />
+        <summary type="html">[停班停課通知]桃園市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001203534_i_10018_028</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:35:34+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001203534_i_10018_028.cap" />
+        <summary type="html">[停班停課通知]新竹市:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥03-5216121#347。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001203735_i_10004_029</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:37:35+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001203735_i_10004_029.cap" />
+        <summary type="html">[停班停課通知]新竹縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥03-5513522#334~337。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241001203936_i_10002_030</id>
+        <title>停班停課</title>
+        <updated>2024-10-01T20:39:36+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241001203936_i_10002_030.cap" />
+        <summary type="html">[停班停課通知]宜蘭縣:10/2停止上班、停止上課。行政院人事行政總處。如有任何問題請撥03-9251000#2130、2133。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002181243_i_10009_023</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T18:12:43+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002181243_i_10009_023.cap" />
+        <summary type="html">[停班停課通知]雲林縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002181444_i_10010_024</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T18:14:44+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002181444_i_10010_024.cap" />
+        <summary type="html">[停班停課通知]嘉義縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥05-3620123#406。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002181646_i_67_025</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T18:16:46+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002181646_i_67_025.cap" />
+        <summary type="html">[停班停課通知]臺南市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002181847_i_64_026</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T18:18:47+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002181847_i_64_026.cap" />
+        <summary type="html">[停班停課通知]高雄市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002182048_i_10020_027</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T18:20:48+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002182048_i_10020_027.cap" />
+        <summary type="html">[停班停課通知]嘉義市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥05-2254321#718、728。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002182249_i_10013_028</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T18:22:49+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002182249_i_10013_028.cap" />
+        <summary type="html">[停班停課通知]屏東縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002182450_i_10015_029</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T18:24:50+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002182450_i_10015_029.cap" />
+        <summary type="html">[停班停課通知]花蓮縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002185301_i_10014_030</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T18:53:01+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002185301_i_10014_030.cap" />
+        <summary type="html">[停班停課通知]臺東縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002192513_i_10016_031</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T19:25:13+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002192513_i_10016_031.cap" />
+        <summary type="html">[停班停課通知]澎湖縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002200730_i_10004_034</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:07:30+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002200730_i_10004_034.cap" />
+        <summary type="html">[停班停課通知]新竹縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥03-5513522#334~337。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002201333_i_10017_035</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:13:33+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002201333_i_10017_035.cap" />
+        <summary type="html">[停班停課通知]基隆市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002201534_i_63_036</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:15:34+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002201534_i_63_036.cap" />
+        <summary type="html">[停班停課通知]臺北市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002201735_i_65_037</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:17:35+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002201735_i_65_037.cap" />
+        <summary type="html">[停班停課通知]新北市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002201936_i_68_038</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:19:36+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002201936_i_68_038.cap" />
+        <summary type="html">[停班停課通知]桃園市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002202137_i_10018_039</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:21:37+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002202137_i_10018_039.cap" />
+        <summary type="html">[停班停課通知]新竹市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥03-5216121#347。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002202338_i_10005_040</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:23:38+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002202338_i_10005_040.cap" />
+        <summary type="html">[停班停課通知]苗栗縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥037-559580。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002202539_i_66_041</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:25:39+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002202539_i_66_041.cap" />
+        <summary type="html">[停班停課通知]臺中市:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002202740_i_10007_042</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:27:40+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002202740_i_10007_042.cap" />
+        <summary type="html">[停班停課通知]彰化縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥04-7531431。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002202941_i_10008_043</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:29:41+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002202941_i_10008_043.cap" />
+        <summary type="html">[停班停課通知]南投縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241002203142_i_10002_044</id>
+        <title>停班停課</title>
+        <updated>2024-10-02T20:31:42+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241002203142_i_10002_044.cap" />
+        <summary type="html">[停班停課通知]宜蘭縣:10/3停止上班、停止上課。行政院人事行政總處。如有任何問題請撥03-9251000#2130、2133。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241003200340_i_66_023</id>
+        <title>停班停課</title>
+        <updated>2024-10-03T20:03:40+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241003200340_i_66_023.cap" />
+        <summary type="html">[停班停課通知]臺中市:10/4照常上班、照常上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241003202349_i_10013_024</id>
+        <title>停班停課</title>
+        <updated>2024-10-03T20:23:49+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241003202349_i_10013_024.cap" />
+        <summary type="html">[停班停課通知]屏東縣:10/4停止上班、停止上課。行政院人事行政總處。如有任何問題請撥08-7320415#6530、6535。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241003203353_i_64_025</id>
+        <title>停班停課</title>
+        <updated>2024-10-03T20:33:53+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241003203353_i_64_025.cap" />
+        <summary type="html">[停班停課通知]高雄市:10/4停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(市內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241003230451_i_1001413_026</id>
+        <title>停班停課</title>
+        <updated>2024-10-03T23:04:51+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241003230451_i_1001413_026.cap" />
+        <summary type="html">[停班停課通知]臺東縣金峰鄉:明天停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241004021508_i_1001409_003</id>
+        <title>停班停課</title>
+        <updated>2024-10-04T02:15:08+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241004021508_i_1001409_003.cap" />
+        <summary type="html">[停班停課通知]臺東縣太麻里鄉:今天停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+    <entry>
+        <id>dgpa.gov.tw_workSchlClos_20241004091422_i_1001413_004</id>
+        <title>停班停課</title>
+        <updated>2024-10-04T09:14:22+08:00</updated>
+        <author>
+            <name>行政院人事行政總處</name>
+        </author>
+        <link rel="alternate" href="https://alerts.ncdr.nat.gov.tw/Capstorage/DGPA/2024/workschoolclose_cap/dgpa.gov.tw_workSchlClos_20241004091422_i_1001413_004.cap" />
+        <summary type="html">[停班停課通知]臺東縣金峰鄉:今天停止上班、停止上課。行政院人事行政總處。如有任何問題請撥1999(縣內直撥)。</summary>
+        <category term="停班停課" />
+    </entry>
+</feed>
