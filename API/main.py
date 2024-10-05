@@ -31,6 +31,7 @@ def get_day_off_table():
 
     table_list = s.find('tbody', class_="Table_Body").find_all('tr')
 
+    # Non day-off announcement
     if len(table_list) == 2 and '無停班停課' in table_list[0].find('h2').text:
         results['result'] = []
         return results
