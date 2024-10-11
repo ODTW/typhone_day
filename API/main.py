@@ -7,7 +7,9 @@ from bs4 import BeautifulSoup
 
 url = "https://www.dgpa.gov.tw/typh/daily/nds.html"
 
-headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"}
+headers = {
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+}
 
 curr_path = os.getcwd()
 root_dir = os.path.dirname(curr_path)
@@ -23,7 +25,9 @@ def get_day_off_table():
     results = {}
 
     results["update_at"] = s.find("div", class_="f_right Content_Updata")
-    results["update_at"] = results["update_at"].find("h4").text.split("\r\n")[1].strip().split("：")[1]
+    results["update_at"] = (
+        results["update_at"].find("h4").text.split("\r\n")[1].strip().split("：")[1]
+    )
     today = datetime.strptime(results["update_at"], "%Y/%m/%d %H:%M:%S").date()
     tomorrow = today + timedelta(days=1)
 
@@ -38,14 +42,22 @@ def get_day_off_table():
         city_status = item.find_all("td")
 
         # Get each Local Gov name and status
-        if city_status[0].get("headers") and city_status[0].get("headers")[0] == "city_Name":
-            if city_status[1].get("headers") and city_status[1].get("headers")[0] == "StopWorkSchool_Info":
+        if (
+            city_status[0].get("headers")
+            and city_status[0].get("headers")[0] == "city_Name"
+        ):
+            if (
+                city_status[1].get("headers")
+                and city_status[1].get("headers")[0] == "StopWorkSchool_Info"
+            ):
                 results[city_status[0].text] = city_status[1].text.split("。")[:-1]
         else:
             continue
 
         # Get status of 上班 + 上課
-        results[city_status[0].text] = [res.strip() for res in results[city_status[0].text]]
+        results[city_status[0].text] = [
+            res.strip() for res in results[city_status[0].text]
+        ]
         final_result = []
 
         for res in results[city_status[0].text]:
@@ -90,7 +102,9 @@ def get_day_off_table():
 
 def save_to_dataset(results):
     date_now = datetime.now().strftime("%Y-%m-%d")
-    with open(os.path.join(root_dir, "Data", date_now + ".json"), "w", encoding="utf-8") as f:
+    with open(
+        os.path.join(root_dir, "Data", date_now + ".json"), "w", encoding="utf-8"
+    ) as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
 
