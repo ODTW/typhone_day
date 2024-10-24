@@ -39,129 +39,34 @@ https://www.dgpa.gov.tw/typh/daily/nds.html
 各地方政府停班停課資訊
 
 ```html
+
+<TBODY class="Table_Body">
+    <TR>
+      <TD headers='city_Name' vAlign=center align=middle width='13%'><FONT >臺北市</FONT></TD>
+      <TD headers='StopWorkSchool_Info' vAlign=center align=left width='70%'>
+        <FONT color=#FF0000 >臺北市士林區陽明山國民小學:今天停止上班、停止上課。  </FONT><br>
+        <FONT color=#FF0000 >臺北市北投區湖田里:今天停止上班、停止上課。  </FONT><br>
+        <FONT color=#FF0000 >臺北市立格致國民中學:今天停止上班、停止上課。  </FONT><br>
+        <FONT color=#FF0000 >臺北市湖田實驗國民小學:今天停止上班、停止上課。  </FONT><br>
+        <FONT color=#FF0000 >臺北市華岡藝術學校:今天停止上班、停止上課。  </FONT>
+      </TD>
+    </TR>
+    <!-- 備註 #a5a1c2-->
+    <TR style="background:rgba(204, 124, 236, 0.39);">
+        <TD colspan=3>
+            <p>1.若欲進入本總處網站首頁版面，請按<a href="https://www.dgpa.gov.tw/index">人事行政總處全球資訊網</a></p>
+            <p>2.語音查詢電話： ０２０３００１６６</p>
+            <p>3.機關、學校中英文名稱係由各通報機關提供。</p>
+            <p>4.適用範圍為各級政府機關及公、私立學校；至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。</p>
+            <p>5.民間事業單位及勞工應依勞動部『天然災害發生事業單位勞工出勤管理及工資給付要點』處理， 如有疑義，請按<a href="https://laws.mol.gov.tw/FLAW/FLAWDAT01.aspx?id=FL049533">「勞動部網頁」</a>查詢，或電洽該部免付費電話專線：0800-085-151。
+            </p>
+        </TD>
+    </TR>
+</TBODY>
+
 <tbody class="Table_Body">
   <tr>
     <td headers="city_Name" valign="center" align="middle" width="13%"><font>基隆市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>臺北市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>新北市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>桃園市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>新竹市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>新竹縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>苗栗縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>臺中市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>彰化縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>雲林縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>南投縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>嘉義市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>嘉義縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>臺南市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>高雄市</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>屏東縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>宜蘭縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>花蓮縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>臺東縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>澎湖縣</font></td>
-    <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
-      <font color="#FF0000">今天停止上班、停止上課。 </font>
-    </td>
-  </tr>
-  <tr>
-    <td headers="city_Name" valign="center" align="middle" width="13%"><font>連江縣</font></td>
     <td headers="StopWorkSchool_Info" valign="center" align="left" width="70%">
       <font color="#FF0000">今天停止上班、停止上課。 </font>
     </td>
@@ -181,10 +86,7 @@ https://www.dgpa.gov.tw/typh/daily/nds.html
       <p>
         4.適用範圍為各級政府機關及公、私立學校；至交通運輸、警察、消防、海岸巡防、醫療、關務等業務性質特殊機關（構），為全年無休服務民眾，且應實施輪班、輪休制度，如遇天然災害發生時，其尚無停止上班之適用。
       </p>
-      <p>
-        5.民間事業單位及勞工應依勞動部『天然災害發生事業單位勞工出勤管理及工資給付要點』處理， 如有疑義，請按
-        <a href="https://laws.mol.gov.tw/FLAW/FLAWDAT01.aspx?id=FL049533">「勞動部網頁」</a
-        >查詢，或電洽該部免付費電話專線：0800-085-151。
+      <p>5.民間事業單位及勞工應依勞動部『天然災害發生事業單位勞工出勤管理及工資給付要點』處理， 如有疑義，請按<a href="https://laws.mol.gov.tw/FLAW/FLAWDAT01.aspx?id=FL049533">「勞動部網頁」</a>查詢，或電洽該部免付費電話專線：0800-085-151。
       </p>
     </td>
   </tr>
