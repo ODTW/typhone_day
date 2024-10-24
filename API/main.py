@@ -1,3 +1,22 @@
+# main.py Ver 0.1.xx
+# 2024.10.25
+# Get Typhone Day_off announcement from DGPA at https://www.dgpa.gov.tw/typh/daily/nds.html
+# 1. get update_time
+# 2. check if there is announcement
+# 3. get cities list + status
+# 4. transform cities status => region / school - work[1/0] - school[1/0]
+#    1 = normal
+#    0 = day off
+# 5. save to Data\[date].json
+#   {
+#       "update_at": "datetime"
+#       "data": {
+#               "city_name" : [
+#                       "region_name/school", "date", "work[1/0]", "school[1/0]"
+#                   ]
+#           }
+#   }
+
 import json
 import os
 from datetime import datetime, timedelta
