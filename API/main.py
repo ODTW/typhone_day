@@ -22,7 +22,10 @@ def get_day_off_table():
     s = httpx.get(url, headers=headers)
     s = BeautifulSoup(s.content, "lxml")
 
-    results = {}
+    results = {
+        "update_at": "",
+        "result": {},
+    }
 
     results["update_at"] = s.find("div", class_="f_right Content_Updata")
     results["update_at"] = (
@@ -31,41 +34,49 @@ def get_day_off_table():
     today = datetime.strptime(results["update_at"], "%Y/%m/%d %H:%M:%S").date()
     tomorrow = today + timedelta(days=1)
 
-    table_list = s.find("tbody", class_="Table_Body").find_all("tr")
+    city_list = s.find("tbody", class_="Table_Body").find_all("tr")
 
-    # Non day-off announcement
-    if len(table_list) == 2 and "無停班停課" in table_list[0].find("h2").text:
-        results["result"] = []
-        return results
-
-    for item in table_list:
-        city_status = item.find_all("td")
+    for city in city_list:
+        city_result = {}  # temp status result for city
+        city_status = city.find_all("td")
 
         # Get each Local Gov name and status
         if (
             city_status[0].get("headers")
             and city_status[0].get("headers")[0] == "city_Name"
         ):
+            city_name = city_status[0].text
             if (
                 city_status[1].get("headers")
                 and city_status[1].get("headers")[0] == "StopWorkSchool_Info"
             ):
-                results[city_status[0].text] = city_status[1].text.split("。")[:-1]
+                city_result[city_name] = city_status[1].text.split("。")[:-1]
         else:
-            continue
+            try:
+                ann_status = city_list[0].find("h2").text
+                if "無停班停課" in ann_status:
+                    # no day off announcement
+                    results["result"] = []
+            except AttributeError:
+                # no city name nor non-announcement ?
+                print("Please check " + url)
+                continue
 
         # Get status of 上班 + 上課
-        results[city_status[0].text] = [
-            res.strip() for res in results[city_status[0].text]
+        city_result[city_status[0].text] = [
+            res.strip() for res in city_result[city_status[0].text]
         ]
         final_result = []
 
-        for res in results[city_status[0].text]:
+        # reformat status to "sub_region", "date", "work[1/0]", "schoole[1/0]"
+        for res in city_result[city_status[0].text]:
             sub_region = city_status[0].text
 
-            # the status is for a sub region(s)
+            # the status is for a sub region(s) or school
             if ":" in res:
                 sub_region, res = res.split(":")
+                if sub_region != city_name:
+                    sub_region = sub_region.replace(city_name, "")
 
             # Check the date of announcement
             res_date = today if res[:2] == "今天" else tomorrow
@@ -95,6 +106,8 @@ def get_day_off_table():
             else:
                 final_result.append([sub_region, res_date, res_work, res_class])
 
+        # result = {}
+        # result[city_status[0].text] = final_result
         results["result"][city_status[0].text] = final_result
 
     return results
