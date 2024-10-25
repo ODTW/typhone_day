@@ -43,7 +43,7 @@ def get_day_off_table():
 
     results = {
         "update_at": "",
-        "result": {},
+        "data": {},
     }
 
     results["update_at"] = s.find("div", class_="f_right Content_Updata")
@@ -59,6 +59,16 @@ def get_day_off_table():
         city_result = {}  # temp status result for city
         city_status = city.find_all("td")
 
+        if len(city_status) == 1:
+            try:
+                ann_status = city_status[0].find("h2").text
+                results["data"] = {"all": ann_status}
+            except AttributeError:
+                # no city name nor non-announcement ?
+                print("Please check " + url)
+                results["data"] = {"all": "AttributeError"}
+            return results
+
         # Get each Local Gov name and status
         if (
             city_status[0].get("headers")
@@ -70,16 +80,6 @@ def get_day_off_table():
                 and city_status[1].get("headers")[0] == "StopWorkSchool_Info"
             ):
                 city_result[city_name] = city_status[1].text.split("。")[:-1]
-        else:
-            try:
-                ann_status = city_list[0].find("h2").text
-                if "無停班停課" in ann_status:
-                    # no day off announcement
-                    results["result"] = []
-            except AttributeError:
-                # no city name nor non-announcement ?
-                print("Please check " + url)
-                continue
 
         # Get status of 上班 + 上課
         city_result[city_status[0].text] = [
@@ -95,6 +95,8 @@ def get_day_off_table():
             if ":" in res:
                 sub_region, res = res.split(":")
                 if sub_region != city_name:
+                    if city_name + "立" in sub_region:
+                        sub_region = sub_region.replace(city_name + "立", "")
                     sub_region = sub_region.replace(city_name, "")
 
             # Check the date of announcement
@@ -127,7 +129,7 @@ def get_day_off_table():
 
         # result = {}
         # result[city_status[0].text] = final_result
-        results["result"][city_status[0].text] = final_result
+        results["data"][city_status[0].text] = final_result
 
     return results
 
