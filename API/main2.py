@@ -34,30 +34,35 @@ curr_path = os.getcwd()
 root_dir = os.path.dirname(curr_path)
 
 
-def get_day_off_table():
+def get_day_off_table(html=""):
     results = {
         "checked_at": datetime.now().strftime("%Y.%m.%d %H:%M:%S"),
         "updated_at": "",
         "status_code": 0,
+        "data": {},
     }
+    if not html:
+        s = httpx.get(url, headers=headers)
+        results["status_code"] = s.status_code
 
-    s = httpx.get(url, headers=headers)
-    results["status_code"] = s.status_code
+        if s.status_code != 200:
+            results["error"] = "page load error"
+            return results
+        s = BeautifulSoup(s.content, "lxml")
 
-    if s.status_code != 200:
-        results["error"] = "page load error"
-        return results
+    else:
+        s = html
+        s = BeautifulSoup(s, "lxml")
 
-    s = BeautifulSoup(s.content, "lxml")
     site_title = s.title.text.strip()
     if "天然災害停止上班及上課" not in site_title:
         results["error"] = "wrong page - " + site_title
         return results
 
     results["updated_at"] = (
-        s.find("div", class_="f_right Content_Updata")
+        s.find("div", class_="Content_Updata")
         .find("h4")
-        .text.split("\r\n")[1]
+        .text.split("\n")[1]
         .strip()
         .split("：")[1]
         .replace("/", ".")
@@ -68,6 +73,7 @@ def get_day_off_table():
 
     city_table = s.find("tbody", class_="Table_Body").find_all("tr")
 
+    print([x for x in city_table if len(x.find_all("td")) > 1])
     # 無停班停課
     try:
         ann_status = city_table[0].find("h2").text
@@ -76,7 +82,7 @@ def get_day_off_table():
         else:
             results["data"] = {"all": ann_status}
     except AttributeError:
-        results["error"] = "Table AttributeError: " + url
+        pass
     else:
         return results
 
@@ -139,6 +145,9 @@ def get_day_off_table():
 
 
 if __name__ == "__main__":
-    results = get_day_off_table()
+    with open("..\\Data\\dummy.html", "r") as f:
+        dummy = f.read()
+
+    results = get_day_off_table(dummy)
     print(results)
     # save_to_dataset(results)
