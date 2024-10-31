@@ -19,6 +19,7 @@
 
 import json
 import os
+import re
 from datetime import datetime, timedelta
 
 import httpx
@@ -127,7 +128,15 @@ def get_day_off_table(html=""):
                     city_final_list.append([city_name, *city_final[city_name]])
                 else:
                     # 多重公告，地區或學校停班聽課
-                    sub_zone, sub_status = [x.strip() for x in status_row.split(":")]
+                    re.sub(r"(\d+)\:(\d+)", "\1-\2", status_row)
+                    try:
+                        sub_zone, *sub_status = [
+                            x.strip() for x in status_row.split(":")
+                        ]
+                        sub_status = "".join(sub_status)
+                    except ValueError:
+                        print(status_row)
+
                     if city_name in sub_zone or city_name + "立" in sub_zone:
                         sub_zone = sub_zone.replace(city_name + "立", "")
                         sub_zone = sub_zone.replace(city_name, "")
@@ -144,15 +153,6 @@ def get_day_off_table(html=""):
                             sub_status, today_str, tomorrow_str
                         )
                         city_final_list.append([sub_zone, *city_final[sub_zone]])
-
-                # finale format: 'city_name/zone_name' = city(zone)_status
-                # 今天停止上班、停止上課
-                # 今天照常上班、照常上課
-                # '臺北市士林區陽明山國民小學': '今天停止上班、停止上課',
-                # '臺北市北投區湖田里': '今天停止上班、停止上課',
-                # '臺北市立格致國民中學': '今天停止上班、停止上課',
-                # '臺北市湖田實驗國民小學': '今天停止上班、停止上課',
-                # '臺北市華岡藝術學校': '今天停止上班、停止上課'
 
         else:
             print(f":: {city_name} - {city_status}")
@@ -192,16 +192,17 @@ def reformat_status(status, today, tomorrow):
 
 
 def save_to_dataset(results):
-    date_now = datetime.now().strftime("%Y-%m-%d")
-    with open(
-        os.path.join(root_dir, "Data", date_now + ".json"), "w", encoding="utf-8"
-    ) as f:
+    # date_now = datetime.now().strftime("%Y-%m-%d")
+    date_updated = results["updated_at"].split(" ")[0].replace(".", "-")
+    save_to_file = os.path.join(root_dir, "Data", date_updated + ".json")
+    with open(save_to_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
+        print(save_to_file)
 
 
 if __name__ == "__main__":
-    with open("..\\Data\\dummy.html", "r") as f:
+    with open("..\\Data\\dummy2.html", "r") as f:
         dummy = f.read()
 
-    results = get_day_off_table()
+    results = get_day_off_table(dummy)
     save_to_dataset(results)
