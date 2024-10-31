@@ -72,9 +72,9 @@ def get_day_off_table(html=""):
     )
 
     today = datetime.strptime(results["updated_at"], "%Y.%m.%d %H:%M:%S").date()
-    today_str = today.strftime("%Y.%m.%e")
+    today_str = today.strftime("%Y.%m.%d")
     tomorrow = today + timedelta(days=1)
-    tomorrow_str = tomorrow.strftime("%Y.%m.%e")
+    tomorrow_str = tomorrow.strftime("%Y.%m.%d")
 
     city_table = s.find("tbody", class_="Table_Body").find_all("tr")
 
@@ -204,5 +204,5 @@ if __name__ == "__main__":
     with open("..\\Data\\dummy2.html", "r") as f:
         dummy = f.read()
 
-    results = get_day_off_table(dummy)
+    results = get_day_off_table()
     save_to_dataset(results)
