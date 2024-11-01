@@ -177,16 +177,12 @@ def reformat_status(status, today, tomorrow):
         work_day, school_day = status.split("、")
     else:
         print(status)
+        # 已達停止上班及上課標準
         work_day = school_day = "照常" if "照常" in status else "停止"
 
-    if "停止" in work_day:
-        formated_status.append("0")
-    else:
-        formated_status.append("1")
-    if "停止" in school_day:
-        formated_status.append("0")
-    else:
-        formated_status.append("1")
+    work_day = "0" if "停止" in work_day else "1"
+    school_day = "0" if "停止" in school_day else "1"
+    formated_status.append([work_day, school_day])
 
     return formated_status
 
