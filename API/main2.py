@@ -163,6 +163,8 @@ def get_day_off_table(html=""):
 
 
 def reformat_status(status, today, tomorrow):
+    # work_day = 上班, school_day = 上課
+    # 0 = 放假, 1 = 上班
     formated_status = []
     if "今天" in status:
         formated_status.append(today)
