@@ -123,7 +123,7 @@ def get_day_off_table(html=""):
                 if ":" not in status_row:
                     # 地方政府單一公告
                     city_final[city_name] = reformat_status(
-                        status_row, today_str, tomorrow_str
+                        city_name, status_row, today_str, tomorrow_str
                     )
                     city_final_list.append([city_name, *city_final[city_name]])
                 else:
@@ -135,7 +135,7 @@ def get_day_off_table(html=""):
                         ]
                         sub_status = "".join(sub_status)
                     except ValueError:
-                        print(status_row)
+                        print(city_name, status_row)
 
                     if city_name in sub_zone or city_name + "立" in sub_zone:
                         sub_zone = sub_zone.replace(city_name + "立", "")
@@ -145,12 +145,12 @@ def get_day_off_table(html=""):
                     if "、" in sub_zone:
                         for zone_name in sub_zone.split("、"):
                             city_final[zone_name] = reformat_status(
-                                sub_status, today_str, tomorrow_str
+                                sub_zone, sub_status, today_str, tomorrow_str
                             )
                             city_final_list.append([zone_name, *city_final[zone_name]])
                     else:
                         city_final[sub_zone] = reformat_status(
-                            sub_status, today_str, tomorrow_str
+                            sub_zone, sub_status, today_str, tomorrow_str
                         )
                         city_final_list.append([sub_zone, *city_final[sub_zone]])
 
@@ -162,7 +162,7 @@ def get_day_off_table(html=""):
     return results
 
 
-def reformat_status(status, today, tomorrow):
+def reformat_status(zone_name, status, today, tomorrow):
     # work_day = 上班, school_day = 上課
     # 0 = 放假, 1 = 上班
     formated_status = []
@@ -178,9 +178,12 @@ def reformat_status(status, today, tomorrow):
     if "、" in status:
         work_day, school_day = status.split("、")
     else:
-        print(status)
+        print(zone_name, status)
         # 已達停止上班及上課標準
-        work_day = school_day = "照常" if "照常" in status else "停止"
+        if "尚未列入警戒區" in status or "照常" in status:
+            work_day = school_day = "照常"
+        else:
+            work_day = school_day = "停止"
 
     work_day = "0" if "停止" in work_day else "1"
     school_day = "0" if "停止" in school_day else "1"
