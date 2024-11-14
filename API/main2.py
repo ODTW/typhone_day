@@ -198,10 +198,11 @@ def save_to_dataset(results):
     save_to_file = os.path.join(root_dir, "Data", date_updated + ".json")
     with open(save_to_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
-        print(save_to_file)
+        print("::", save_to_file)
 
 
 if __name__ == "__main__":
+    print("::", datetime.now().strftime("%Y.%m.%d %H:%M:%S"))
     with open("..\\Data\\dummy2.html", "r") as f:
         dummy = f.read()
 
