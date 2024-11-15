@@ -167,8 +167,12 @@ def reformat_status(zone_name, status, today, tomorrow):
     # 0 = 放假, 1 = 上班
     formated_status = []
     if "今天" in status:
+        if "起" in status and re.match(r"\d{4}", status):
+            start_time = re.findall(r"(\d{4})", status)[0]
+            print(start_time)
         formated_status.append(today)
         status = status.replace("今天", "")
+
     elif "明天" in status:
         formated_status.append(tomorrow)
         status = status.replace("明天", "")
@@ -180,7 +184,12 @@ def reformat_status(zone_name, status, today, tomorrow):
     else:
         print(zone_name, status)
         # 已達停止上班及上課標準
-        if "尚未列入警戒區" in status or "照常" in status:
+        if "未達" in status:
+            if "停止" in status:
+                work_day = school_day = "照常"
+            else:
+                work_day = school_day = "停止"
+        elif "尚未列入警戒區" in status or "照常" in status:
             work_day = school_day = "照常"
         else:
             work_day = school_day = "停止"
