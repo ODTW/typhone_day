@@ -167,6 +167,8 @@ def reformat_status(zone_name, status, today, tomorrow):
     # 0 = 放假, 1 = 上班
     formated_status = []
     if "今天" in status:
+        # TODO: 需要加入一個今日 + 時間的標註
+
         if "起" in status and re.match(r"\d{4}", status):
             start_time = re.findall(r"(\d{4})", status)[0]
             print(start_time)
